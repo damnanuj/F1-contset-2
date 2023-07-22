@@ -23,7 +23,7 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
 }
 .nav-left{
     display: flex;
@@ -81,6 +81,11 @@ nav{
 }
 
 /* header part ends */
+
+
+
+
+
 main{
     /* background-color: red; */
     width: 100%;
@@ -110,6 +115,10 @@ main{
     flex-direction: column;
     gap: 1rem;
 }
+.left>div>h1{
+    color: #184655;
+    font-size: 40px;
+}
 .search{
     /* background-color: red; */
     display: flex;
@@ -126,10 +135,15 @@ main{
     padding: 13px 30px;
     border-bottom-right-radius: 12px;
     border-top-right-radius: 12px;
+    transition: all 0.3s ease-in-out;
+}
+.src-btn a{
+    color: white;
+    font-weight: 600;
+    font-size: 18px;
 }
 .src-icon{
     background-color: white;
-   
     padding-right: 100px;
     padding-left: 20px;
     padding-top: 10px;
@@ -137,8 +151,18 @@ main{
     border-bottom-left-radius: 12px;
     border-top-left-radius: 12px;
 }
+.src-icon>p{
+    color: #727272;
+}
 .hash{
     display: flex;
     gap: 2rem;
     align-items: center;
+}
+.hash p{
+    color: #53748C;
+}
+.src-btn:hover{
+    cursor: pointer;
+    background-color: #0e5e79;
 }
